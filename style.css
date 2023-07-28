@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:antiquewhite;
+    border: 5px solid #f0c75e;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold; 
+    font-family: 'Bigelow Rules', sans-serif;
+
+
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Bigelow Rules', sans-serif;
+    font-stretch:ultra-expanded;
+}
+
+h4 {
+    font-size: 2rem;
+        font-family: 'Bigelow Rules', sans-serif;
+}
+hr {
+    margin: 20px auto;
+    color: #f0c75e;
+    border: 3px solid #f0c75e;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer {
+    height: 1rem;
+}
+.btn {
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    width: 200px;
+}
+.btn-warning {
+    background-color: #740001;
+    border-color: #740001;
+}
+.btn-warning:hover {
+    background-color: #f0c75e;
+    border-color: #f0c75e;
+    border-width: 4px;
+}
+.btn-getletter {
+    padding: 1rem 2rem;
+
+    background-color: #740001;
+    font-family: 'Bigelow Rules', sans-serif;
+
+    justify-content: center;
+    color: azure;
+}
